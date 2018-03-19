@@ -84,7 +84,7 @@ fi
 
 cd ~/WARP/JYL/  || exit
 echo -e "\e[96mInstalling  ...\e[90m"
-if .prepare warp 8; then 
+if ./prepare warp 8; then 
 	echo -e "\e[92mDependencies installation Done!\e[0m"
 else
 	echo -e "\e[91mUnable to install dependencies!"
